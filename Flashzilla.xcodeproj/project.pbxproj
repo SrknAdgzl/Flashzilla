@@ -13,6 +13,7 @@
 		DA482F152AD8158B001C99C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA482F142AD8158B001C99C7 /* Preview Assets.xcassets */; };
 		DA482F1C2AD844A5001C99C7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA482F1B2AD844A5001C99C7 /* Card.swift */; };
 		DA482F1E2AD845F6001C99C7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA482F1D2AD845F6001C99C7 /* CardView.swift */; };
+		DA482F202AD96F12001C99C7 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA482F1F2AD96F12001C99C7 /* EditCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DA482F142AD8158B001C99C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA482F1B2AD844A5001C99C7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		DA482F1D2AD845F6001C99C7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DA482F1F2AD96F12001C99C7 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			children = (
 				DA482F0D2AD8158A001C99C7 /* FlashzillaApp.swift */,
 				DA482F0F2AD8158A001C99C7 /* ContentView.swift */,
-				DA482F1B2AD844A5001C99C7 /* Card.swift */,
 				DA482F1D2AD845F6001C99C7 /* CardView.swift */,
+				DA482F1B2AD844A5001C99C7 /* Card.swift */,
+				DA482F1F2AD96F12001C99C7 /* EditCards.swift */,
 				DA482F112AD8158B001C99C7 /* Assets.xcassets */,
 				DA482F132AD8158B001C99C7 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				DA482F102AD8158A001C99C7 /* ContentView.swift in Sources */,
 				DA482F1C2AD844A5001C99C7 /* Card.swift in Sources */,
 				DA482F1E2AD845F6001C99C7 /* CardView.swift in Sources */,
+				DA482F202AD96F12001C99C7 /* EditCards.swift in Sources */,
 				DA482F0E2AD8158A001C99C7 /* FlashzillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
