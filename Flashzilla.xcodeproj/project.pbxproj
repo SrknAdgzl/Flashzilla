@@ -14,6 +14,8 @@
 		DA482F1C2AD844A5001C99C7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA482F1B2AD844A5001C99C7 /* Card.swift */; };
 		DA482F1E2AD845F6001C99C7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA482F1D2AD845F6001C99C7 /* CardView.swift */; };
 		DA482F202AD96F12001C99C7 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA482F1F2AD96F12001C99C7 /* EditCards.swift */; };
+		DAE73C6C2AD9E15300007211 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE73C6B2AD9E15300007211 /* FileManager-DocumentsDirectory.swift */; };
+		DAE73C6E2AD9E20B00007211 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE73C6D2AD9E20B00007211 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		DA482F1B2AD844A5001C99C7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		DA482F1D2AD845F6001C99C7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		DA482F1F2AD96F12001C99C7 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
+		DAE73C6B2AD9E15300007211 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		DAE73C6D2AD9E20B00007211 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				DA482F1D2AD845F6001C99C7 /* CardView.swift */,
 				DA482F1B2AD844A5001C99C7 /* Card.swift */,
 				DA482F1F2AD96F12001C99C7 /* EditCards.swift */,
+				DAE73C6B2AD9E15300007211 /* FileManager-DocumentsDirectory.swift */,
+				DAE73C6D2AD9E20B00007211 /* DataManager.swift */,
 				DA482F112AD8158B001C99C7 /* Assets.xcassets */,
 				DA482F132AD8158B001C99C7 /* Preview Content */,
 			);
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE73C6C2AD9E15300007211 /* FileManager-DocumentsDirectory.swift in Sources */,
 				DA482F102AD8158A001C99C7 /* ContentView.swift in Sources */,
 				DA482F1C2AD844A5001C99C7 /* Card.swift in Sources */,
+				DAE73C6E2AD9E20B00007211 /* DataManager.swift in Sources */,
 				DA482F1E2AD845F6001C99C7 /* CardView.swift in Sources */,
 				DA482F202AD96F12001C99C7 /* EditCards.swift in Sources */,
 				DA482F0E2AD8158A001C99C7 /* FlashzillaApp.swift in Sources */,
